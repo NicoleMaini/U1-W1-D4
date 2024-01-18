@@ -94,8 +94,7 @@ p{
 }
 
 code{
-    display: inline-block;
-    border: rgb(6, 6, 6);
+    border: 1px solid rgb(150, 149, 149, 0.7);
     background-color:rgba(227,226,227,1);
     border-radius: 8px;
 }
