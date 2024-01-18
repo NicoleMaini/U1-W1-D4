@@ -101,13 +101,14 @@ code{
 }
 
 a{
-    color:rgb(40, 145, 171);
+    color:rgba(80,164,199,1);
     font-weight: 600;
 } 
 
 /* TABELLE */
 
 table{
+    margin-block-start: 1.75rem;
     margin-block-end: 3rem;
     width: 100%;
     margin-inline: auto;
@@ -121,14 +122,15 @@ caption{
 
 table th{
     background-color: rgba(62,107,203,1);
-    padding: 1.5rem;
+    padding: 1rem;
     color: white;
     border: 1px solid rgba(161, 160, 160, 0.4);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 table td{
-    padding: 1.5rem;
+    padding-block: 1.5rem;
     border-block-end: 2px solid rgba(161, 160, 160, 0.4);
 }
 
@@ -158,20 +160,13 @@ h3{
     margin-block-end: 1.5rem;
 }
 
-.card{
-    background-color:rgba(203, 203, 203, 0.5);
-    padding: 2rem;
-    margin-block-end: 3rem;
-}
-
-.art_cor{
-}
 
 input{
     border: none;
     border-block-end: dashed 1px rgba(62,107,203,1) ;
     width: 70%;
     height: 1.75rem;
+    margin-block-end: 1.5rem;
 }
 button{
     background-color: rgba(62,107,203,1);
@@ -186,10 +181,48 @@ button{
 
 /* ELEMENTI NELL' ASIDE */
 
+.card{
+    background-color:rgba(203, 203, 203, 0.5);
+    padding-inline: 1.25rem;
+    padding-block-start: 1rem;
+    margin-block-end: 3rem;
+}
+
+.art_cor{
+    border: 2px solid rgba(161, 160, 160, 0.2);  
+    padding-block: 1rem; 
+    margin-block: 1rem;
+}
+
+aside p{
+    line-height: 0.5rem;
+    
+}
+
+.test_right{
+    text-align: right;
+    font-size: 1rem;
+    margin-block-start: 2.5rem;
+}
+
+
 /* FOOTER */
 
 
 
 footer{
     background: linear-gradient(183deg, rgba(2,84,102,1) 0%, rgba(4,84,103,1) 51%, rgba(43,61,62,1) 100%);
+    font-size: 1rem;
+}
+
+footer h4{
+    margin-block-start: 0.5rem;
+}
+
+footer p{
+    line-height: 1.5rem;
+}
+
+footer a{
+    color: rgb(158, 43, 150);
 }
